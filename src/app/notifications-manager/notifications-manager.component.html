@@ -1,0 +1,14 @@
+
+<div class="container">
+  <div>
+    <span class="display-3 text-muted">Notifications Count : {{notificationsCount$ | async}}</span>
+  </div>
+
+  <div>
+    <h1></h1>
+    <div class="btn btn-primary me-3" (click)="addNotification()">Add Notification</div>
+    <div class="btn btn-primary me-3" (click)="removeNotification()">Remove Notification</div>
+    <div class="btn btn-primary me-3" (click)="resetNotification()">Reset Notification</div>
+  </div>
+
+</div>
